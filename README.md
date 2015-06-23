@@ -1,2 +1,2 @@
-# auto_complete_text
-Find simillar text or auto complete 
+# did_you_mean_suggest
+Find similar text for did you mean suggestions 
