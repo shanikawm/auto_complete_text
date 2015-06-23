@@ -10,5 +10,12 @@ namespace actext;
 
 
 class actext {
+    private  $haystack;
+    function __construct($h){
+        $this->haystack=$h;
+    }
 
+    public function search(){
+        return array();
+    }
 }
