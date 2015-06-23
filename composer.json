@@ -1,5 +1,5 @@
 {
-  "name": "shanikawm/auto-complete-text-search",
+  "name": "shanikawm/did_you_mean_suggest",
   "description": "Find most similar text from a array of entries to display in auto complete box",
   "homepage": "https://github.com/shanikawm/auto_complete_text",
   "minimum-stability": "dev",
