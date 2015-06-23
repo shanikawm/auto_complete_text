@@ -27,7 +27,7 @@ class ac_text
         if (count($result) < $limit) {
             $similar = array();
             foreach ($this->haystack as $h) {
-                $h_split = preg_split('/[^A-Za-z0-1]+', $h);
+                $h_split = preg_split('/[^A-Za-z0-1]+/', $h);
                 if (count($h_split) > 1) {
                     foreach ($h_split as $hs) {
                         similar_text(strtolower($hs), $needle, $p);
