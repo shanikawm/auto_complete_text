@@ -20,14 +20,14 @@ class ac_text
     public function search($needle, $limit = 5)
     {
         $needle = strtolower($needle);
-        $result = array_values(preg_grep('/^' . $needle . '/i', $this->haystack));
+        $result = array_values(preg_grep('/^' . preg_quote($needle, '/') . '/i', $this->haystack));
         if (count($result) < $limit) {
-            $result = array_merge($result, array_values(preg_grep('/ ' . $needle . '/i', $this->haystack)));
+            $result = array_merge($result, array_values(preg_grep('/^(?!' . preg_quote($needle, '/') . ')/i', $this->haystack)));
         }
         if (count($result) < $limit) {
             $similar = array();
             foreach ($this->haystack as $h) {
-                $h_split = explode(' ', $h);
+                $h_split = preg_split('/[^A-Za-z0-1]+', $h);
                 if (count($h_split) > 1) {
                     foreach ($h_split as $hs) {
                         similar_text(strtolower($hs), $needle, $p);
