@@ -9,7 +9,7 @@
 namespace actext;
 
 
-class actext {
+class ac_text {
     private  $haystack;
     function __construct($h){
         $this->haystack=$h;
