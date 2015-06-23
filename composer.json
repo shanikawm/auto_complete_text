@@ -1,0 +1,10 @@
+{
+  "name": "shanikawm/AutoCompleteText",
+  "description": "Find most similar text from a array of entries",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shanika Amarasoma"
+    }
+  ]
+}
