@@ -1,6 +1,6 @@
 {
-  "name": "shanikawm/AutoCompleteText",
-  "description": "Find most similar text from a array of entries",
+  "name": "shanikawm/auto-complete-text",
+  "description": "Find most similar text from a array of entries to display in auto complete box",
   "license": "MIT",
   "authors": [
     {
