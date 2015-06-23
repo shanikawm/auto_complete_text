@@ -22,7 +22,8 @@ class ac_text
         $needle = strtolower($needle);
         $result = array_values(preg_grep('/^' . preg_quote($needle, '/') . '/i', $this->haystack));
         if (count($result) < $limit) {
-            $result = array_merge($result, array_values(preg_grep('/^(?!' . preg_quote($needle, '/') . ')/i', $this->haystack)));
+            $result = array_merge($result, array_values(preg_grep('/.+' . preg_quote($needle, '/') . '/i',
+                $this->haystack)));
         }
         if (count($result) < $limit) {
             $similar = array();
