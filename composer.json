@@ -1,8 +1,7 @@
 {
-  "name": "shanikawm/did_you_mean_suggest",
-  "description": "Find most similar text from a array of entries to display in auto complete box",
-  "homepage": "https://github.com/shanikawm/auto_complete_text",
-  "minimum-stability": "dev",
+  "name": "amarasoma/did_you_mean_suggest",
+  "description": "Fins similar text for did you mean suggestions",
+  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
