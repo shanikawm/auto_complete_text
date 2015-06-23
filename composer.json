@@ -1,6 +1,6 @@
 {
   "name": "amarasoma/did_you_mean_suggest",
-  "description": "Fins similar text for did you mean suggestions",
+  "description": "Find similar text for did you mean suggestions",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
