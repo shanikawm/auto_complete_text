@@ -4,7 +4,7 @@
  * Date: 6/23/2015
  * Time: 3:17 PM
  */
-include_once 'actext.php';
+include_once '../src/actext.php';
 $ac=new AutoCompleteText\ac_text([
     'Light Pink',
     'Pale Violet Red',

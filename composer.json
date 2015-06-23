@@ -1,10 +1,17 @@
 {
-  "name": "shanikawm/auto-complete-text",
+  "name": "shanikawm/auto-complete-text-search",
   "description": "Find most similar text from a array of entries to display in auto complete box",
+  "homepage": "https://github.com/shanikawm/auto_complete_text",
   "license": "MIT",
   "authors": [
     {
       "name": "Shanika Amarasoma"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "files": "src/actext.php"
+  }
 }
