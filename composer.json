@@ -2,7 +2,7 @@
   "name": "shanikawm/auto-complete-text-search",
   "description": "Find most similar text from a array of entries to display in auto complete box",
   "homepage": "https://github.com/shanikawm/auto_complete_text",
-  "minimum-stability": "beta",
+  "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
     {
