@@ -2,6 +2,7 @@
   "name": "amarasoma/did_you_mean_suggest",
   "description": "Find similar text for did you mean suggestions",
   "homepage": "https://github.com/shanikawm/did_you_mean_suggest",
+  "preferred-install": "dev",
   "license": "MIT",
   "authors": [
     {
