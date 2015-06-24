@@ -4,8 +4,8 @@
  * Date: 6/23/2015
  * Time: 3:17 PM
  */
-include_once '../src/actext.php';
-$ac=new AutoCompleteText\ac_text([
+include_once dirname(__DIR__) . '/src/Dyms/dyms.php';
+$ac = new Dyms\dyms([
     'Light Pink',
     'Pale Violet Red',
     'Light Salmon',

@@ -5,10 +5,10 @@
  * Time: 2:10 PM
  */
 
-namespace AutoCompleteText;
+namespace Dyms;
 
 
-class ac_text
+class dyms
 {
     private $haystack;
 
