@@ -1,6 +1,6 @@
 <?php
 /**
- * User: Shanika
+ * Author: Shanika Amarasoma
  * Date: 6/23/2015
  * Time: 2:10 PM
  */
@@ -32,7 +32,11 @@ class dyms
                 if (count($h_split) > 1) {
                     foreach ($h_split as $hs) {
                         similar_text(strtolower($hs), $needle, $p);
-                        $similar[$h] = max($p, $similar[$h]);
+                        if (isset($similar[$h])) {
+                            $similar[$h] = max($p, $similar[$h]);
+                        } else {
+                            $similar[$h] = $p;
+                        }
                     }
                 } else {
                     similar_text(strtolower($h), $needle, $p);
